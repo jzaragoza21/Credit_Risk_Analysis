@@ -14,11 +14,14 @@ The objective of this exercise was to apply different machine learning models to
 
 ## Results
 
-| Machine Learning Model | Accuracy | Precision | Recall |
-| ---------------------- | -------- | --------- | ------ |
-| Naive Random Oversampling | .62 | .99 | .62 |
-| SMOTE | .69 | .99 | .69
-| Undersampling | .40 | .99 | .40 |
+| Machine Learning Model | Accuracy | Precision | Recall | F1 |
+| ---------------------- | -------- | --------- | ------ | -- |
+| Naive Random Oversampling | .62 | .99 | .62 | .76 |
+| SMOTE | .69 | .99 | .69 | .81 |
+| Undersampling | .40 | .99 | .40 | .56 |
+| SMOTEENN | .57 | .99 | .57 | .72 |
+| Balanced Random Forest Classifier | .79 | .99 | .87 | .93 |
+| Easy Ensemble AdaBoost Classifier | .93 | .99 | .94 | .97
 
 
 ### Naive Random Sampling
