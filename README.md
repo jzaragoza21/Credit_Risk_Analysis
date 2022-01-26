@@ -48,3 +48,10 @@ The objective of this exercise was to apply different machine learning models to
 
 ![AdaBoost](https://github.com/jzaragoza21/Credit_Risk_Analysis/blob/main/AdaBoost.PNG)
 
+
+## Summary
+
+
+Given this analysis is for approving credit card and the risk involved in doing so, we should place a greater importance on sensivity (recall) rather than precision. By this measurement, the best model to use for assessing credit card risk is the Easy Ensemble AdaBoost Classifier. The Adaboost model produced the highest F1 and accuracy scores of 93 and 97 percent respectively. This suggests the model is likely the best one for preventing fraudulent loan applications or identifying the most high-risk applications. Additionally, the precision rate for the high-risk applications is also the highest of all the models at 9 percent, while recall rate is also the highest of all the models at 94 percent.
+
+Having said that, the Balanced Random Forest Classifier also had an exceptional F1 score of 93 percent and the second highest accuracy score of 79 percent. In addition to this, The SMOTE model also produced a respectable F1 score of 81 percent. If we were to move forward with any of these models, however, one challenge would be to improve the precision score for high-risk applications. 
